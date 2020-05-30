@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./real-project header-footer/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./real-project header-footer/assets/css/fonts.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap">
+    <link rel="stylesheet" href="./real-project header-footer/assets/css/style3.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="main-menu-search-bar-wrapper">
+            <div class="pos-f-t">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="input-group" id="navbar-search-input" style="height: 50px;">
+                        <div class="input-group-prepend  text-white bg-dark search-contents">
+                            <a href="#" class="input-group-text text-white bg-dark search-content-a" id="basic-addon1">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                        <input type="text" class="form-control text-white bg-dark shadow-none search-content-input"
+                            style="height: 50px;" aria-label="Username" aria-describedby="basic-addon1" />
+                    </div>
+                </div>
+                <!-- Bu navbar ustdekidi -->
+                <nav class="navbar navbar-dark justify-content-end super-nav" id="hide">
+                    <ul class="nav super-nav-menu">
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">ABOUT US<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">PRESS ROOM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">EXPERTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">EVENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">THE BROOKING PRESS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">WASHU AT BROOKINGS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">SUPPORTING BROOKINGS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">CAREERS</a>
+                        </li>
+                    </ul>
+                    <button class="navbar-toggler bg-dark text-white" id="nav-toggler" type="button"
+                        data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                        aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        SEARCH <i class="fas fa-search"></i>
+                    </button>
+                </nav>
+            </div>
+            <hr class="nav-content-hr" />
+            <!-- Bu navbar alttakidi -->
+            <div class="navbar-main">
+                <nav id="" class="navbar main-nav navbar-expand-lg justify-content-md-between navbar-light bg-light">
+                    <!-- Burda responsib olanda flex rahat olunsun  deye divlere alinib search iconi ile burger -->
+                    <div class="flex-nav">
+                        <div class="navbar-brand-md ml-2">
+                            <a class="navbar-brand header-navbar-brand" href="#">
+                                BROOKINGS
+                            </a>
+                        </div>
+                        <div class="search-burger-contents">
+                            <button class="navbar-toggler search-burger-hover bg-dark text-white hide-search"
+                                id="nav-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fas fa-search"></i>
+                            </button>
+                            <button class="navbar-toggler search-burger-hover" id="burger-btn" type="button"
+                                data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <div class="navbar-nav" id="main-nav-menu">
+                            <ul class="nav mr-2">
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary" href="#">AI<span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary" href="#">POLICY 2020</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary" href="#">CITIES & REGIONS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary" href="#">GLOBAL DEV</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary" href="#">INTL AFFAIRS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary" href="#">U.S.ECONOMY</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary" href="#">U.S.POLITICS & GOVT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary" href="#">MORE</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- burger nav hisse -->
+        <nav class="nav-right">
+            <div class="nav-right-inner">
+                <div class="section-right">
+                    <h2 class="mt-2 ml-2">BROOKINGS</h2>
+                    <button class="burger-nav-btn"><i class="fas fa-times"></i></button>
+                </div>
+                <!-- Accordion Using List Group -->
+                <div id="accordion" class="push-nav">
+                    <ul class="panel push-nav-main">
+                        <!-- panel class must be in -->
+                        <li class="menu-item-has-children">
+                            <a href="#web_dev" data-parent="#accordion" data-toggle="collapse"
+                                class="list-group-item burger-collapse-a">
+                                Trending
+                            </a>
+                            <div class="collapse right-navbar-collapse" id="web_dev">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <a href="#">U.S. Metro Areas</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">Cities & Regions</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">U.S. Economy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#desktop" data-parent="#accordion" data-toggle="collapse"
+                                class="list-group-item burger-collapse-a">
+                                Topics
+                            </a>
+                            <div class="collapse right-navbar-collapse" id="desktop">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <a href="#">AI</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">Policy 2020</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">Cities & Regions</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">Global Dev</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">Intl Affairs</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">U.S. Economy</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">U.S. Politics & Govt</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">More</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                                Press ROOM
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                                Experts
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                                Events
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                                The Brooking Press
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                                Washu At Brookings
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                                Support Brookings
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                                Careers
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="program-header topic-spotlight ">
+        <div class="language-select">
+            <ul>
+            </ul>
+        </div>
+        <div class="title-area">
+            <h1>Accountability for Results</h1>
+
+            <nav id="dl-menu" class="dl-menuwrapper ">
+                <button id="dl-trigger" class="btn btn-light"><span>Menu</span><i style="margin-left: 6px;"
+                        class="fas fa-caret-down"></i></button>
+                <ul id="menu-executive-education" class="dl-menu dl-menu-toggle">
+                    <li id="menu-item-20795"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20795">
+                        <a href="https://www.brookings.edu/about-washu-at-brookings/">About WashU at Brookings</a>
+                        <ul class="dl-submenu">
+                            <li class="dl-back"><a href="#">Back</a></li>
+                            <li id="menu-item-323132"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323132"><a
+                                    href="https://www.brookings.edu/about-washu-at-brookings/">About WashU at
+                                    Brookings</a></li>
+                            <li id="menu-item-323112"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323112"><a
+                                    href="https://www.brookings.edu/about-washu-at-brookings/the-bee-philosophy/">Education
+                                    Philosophy</a></li>
+                            <li id="menu-item-323113"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323113"><a
+                                    href="https://www.brookings.edu/about-washu-at-brookings/brookings-executive-education-team/">WashU
+                                    at Brookings Team</a></li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-323114"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-323114">
+                        <a href="https://www.brookings.edu/certificate-programs/">Certificate Programs</a>
+                        <ul class="dl-submenu">
+                            <li class="dl-back"><a href="#">Back</a></li>
+                            <li id="menu-item-323116"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323116"><a
+                                    href="https://www.brookings.edu/certificate-programs/certificate-in-public-leadership/">Certificate
+                                    in Public Leadership</a></li>
+                            <li id="menu-item-323115"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323115"><a
+                                    href="https://www.brookings.edu/certificate-programs/certificate-in-policy-strategy/">Certificate
+                                    in Policy Strategy</a></li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-323135"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-323135">
+                        <a href="https://www.brookings.edu/fellowships-programs/">Fellowships &amp; Programs</a>
+                        <ul class="dl-submenu">
+                            <li class="dl-back"><a href="#">Back</a></li>
+                            <li id="menu-item-323125"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323125"><a
+                                    href="https://www.brookings.edu/fellowships-programs/exec-fellowship/">EXEC
+                                    Fellowship</a></li>
+                            <li id="menu-item-323124"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323124"><a
+                                    href="https://www.brookings.edu/fellowships-programs/legis/">LEGIS Congressional
+                                    Fellowship</a></li>
+                            <li id="menu-item-323126"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323126"><a
+                                    href="https://www.brookings.edu/fellowships-programs/womens-leadership-program/">Women’s
+                                    Leadership Program</a></li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-323421"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-323421"><a
+                            href="https://www.brookings.edu/courses/?s=&amp;course_type=leadership-course&amp;start_date=&amp;end_date=">Leadership
+                            Courses</a></li>
+                    <li id="menu-item-323420"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-323420"><a
+                            href="https://www.brookings.edu/courses/?s=&amp;course_type=policy-course&amp;start_date=&amp;end_date=">Policy
+                            Courses</a></li>
+                    <li id="menu-item-331457"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-331457"><a
+                            href="https://www.brookings.edu/wp-content/uploads/2019/05/2019-2020_Course_Calendar.pdf">Course
+                            Calendar</a></li>
+                    <li id="menu-item-323128"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-323128">
+                        <a href="https://www.brookings.edu/on-site-courses/">On-Site Courses</a>
+                        <ul class="dl-submenu">
+                            <li class="dl-back"><a href="#">Back</a></li>
+                            <li id="menu-item-323136"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323136"><a
+                                    href="https://www.brookings.edu/on-site-courses/">On-Site Courses</a></li>
+                            <li id="menu-item-323129"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323129"><a
+                                    href="https://www.brookings.edu/on-site-courses/on-site-course-options/">On-Site
+                                    Course Options</a></li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-323131"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323131"><a
+                            href="https://www.brookings.edu/bee-for-veterans/">Supporting Veterans</a></li>
+                    <li id="menu-item-323130"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323130"><a
+                            href="https://www.brookings.edu/how-to-register/">Registration Information</a></li>
+                    <li id="menu-item-515417"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-515417">
+                        <a href="https://www.brookings.edu/news-and-reports/">News and Reports</a>
+                        <ul class="dl-submenu">
+                            <li class="dl-back"><a href="#">Back</a></li>
+                            <li id="menu-item-515420"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-515420"><a
+                                    href="https://www.brookings.edu/news-and-reports/newsletters/">Newsletters</a></li>
+                            <li id="menu-item-556527"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-556527"><a
+                                    href="https://www.brookings.edu/think-learn-lead/">Think. Learn. Lead.</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="under-title-area">
+        </div>
+
+
+
+        <div class="program-cta-button-container">
+            <a class="program-cta-button smooth-scroll" href="#">
+                <span>See All Courses</span>
+            </a>
+        </div>
+    </header>
+    <div class="content-justify">
+
+        <div class="content-sidebar left">
+            <div class="sharedaddy sd-sharing-enabled">
+                <div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing">
+                    <div class="sd-content">
+                        <ul>
+                            <li class="share-facebook"><a rel="nofollow noopener noreferrer"
+                                    data-shared="sharing-facebook-80267" class="share-facebook sd-button share-icon"
+                                    href="https://www.brookings.edu/courses/accountability-for-results/?share=facebook"
+                                    target="_blank" title="Click to share on Facebook"><span>Facebook</span><span
+                                        class="share-svg"><svg>
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xlink:href="#icon-social-facebook"></use>
+                                        </svg></span><span class="sharing-screen-reader-text">Click to share on
+                                        Facebook</span></a></li>
+                            <li class="share-twitter"><a rel="nofollow noopener noreferrer"
+                                    data-shared="sharing-twitter-80267" class="share-twitter sd-button share-icon"
+                                    href="https://www.brookings.edu/courses/accountability-for-results/?share=twitter"
+                                    target="_blank" title="Click to share on Twitter"><span>Twitter</span><span
+                                        class="share-svg"><svg>
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xlink:href="#icon-social-twitter"></use>
+                                        </svg></span><span class="sharing-screen-reader-text">Click to share on
+                                        Twitter</span></a></li>
+                            <li class="share-linkedin"><a rel="nofollow noopener noreferrer"
+                                    data-shared="sharing-linkedin-80267" class="share-linkedin sd-button share-icon"
+                                    href="https://www.brookings.edu/courses/accountability-for-results/?share=linkedin"
+                                    target="_blank" title="Click to share on LinkedIn"><span>LinkedIn</span><span
+                                        class="share-svg"><svg>
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xlink:href="#icon-share-linkedin"></use>
+                                        </svg></span><span class="sharing-screen-reader-text">Click to share on
+                                        LinkedIn</span></a></li>
+                            <li class="share-print"><a rel="nofollow noopener noreferrer" data-shared=""
+                                    class="share-print sd-button share-icon"
+                                    href="https://www.brookings.edu/courses/accountability-for-results/#print"
+                                    target="_blank" title="Click to print"><span>Print</span><span
+                                        class="share-svg"><svg>
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xlink:href="#icon-action-print"></use>
+                                        </svg></span><span class="sharing-screen-reader-text">Click to print</span></a>
+                            </li>
+                            <li class="share-custom share-custom-sms"><a rel="nofollow noopener noreferrer"
+                                    data-shared="" class="share-custom share-custom-sms sd-button share-icon"
+                                    href="sms:?body=Accountability%20for%20Results%20www.brookings.edu%2Fcourses%2Faccountability-for-results%2F"
+                                    target="_blank" title="Click to share on SMS"><span
+                                        style="background-image:url(&quot;http://icons.iconarchive.com/icons/alecive/flatwoken/16/Apps-Sms-icon.png&quot;);">SMS</span><span
+                                        class="share-svg"><svg>
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xlink:href="#icon-share-sms"></use>
+                                        </svg></span><span class="sharing-screen-reader-text">Click to share on
+                                        SMS</span></a></li>
+                            <li class="share-email"><a rel="nofollow noopener noreferrer" data-shared=""
+                                    class="share-email sd-button share-icon"
+                                    href="https://www.brookings.edu/courses/accountability-for-results/?share=email"
+                                    target="_blank" title="Click to email this to a friend"><span>Email</span><span
+                                        class="share-svg"><svg>
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xlink:href="#icon-share-email"></use>
+                                        </svg></span><span class="sharing-screen-reader-text">Click to email this to a
+                                        friend</span></a></li>
+                            <li class="share-more">
+                                <div class="sharing-hidden">
+                                    <div class="inner" style="display: none;width:150px;">
+                                        <ul style="background-image:none;">
+                                            <li class="share-reddit"><a rel="nofollow noopener noreferrer"
+                                                    data-shared="" class="share-reddit sd-button share-icon"
+                                                    href="https://www.brookings.edu/courses/accountability-for-results/?share=reddit"
+                                                    target="_blank"
+                                                    title="Click to share on Reddit"><span>Reddit</span><span
+                                                        class="share-svg"><svg>
+                                                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                xlink:href="#icon-share-reddit"></use>
+                                                        </svg></span><span class="sharing-screen-reader-text">Click to
+                                                        share on Reddit</span></a></li>
+                                            <li class="share-end"></li>
+                                        </ul>
+                                    </div>
+                                </div><a href="#" class="sharing-anchor sd-button share-more"><span
+                                        class="sharing-screen-reader-text">More</span><span class="svg"></span><span
+                                        class="share-svg"><svg>
+                                            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                xlink:href="#icon-share-more"></use>
+                                        </svg></span><span class="sharing-screen-reader-text"></span></a>
+                            </li>
+                            <li class="share-end"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="inquiries">
+                <strong>For more information, contact</strong>
+                <div class="inquiry-contact">
+                    <span class="name">Registrar</span>
+                    <a class="email" href="mailto:registrar@brookings.edu" itemprop="email">
+                        registrar@brookings.edu </a>
+                    <a class="number" href="tel:202.797.6276" itemprop="telephone">
+                        202.797.6276 </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-right">
+            <div class="content-sidebar right">
+                <div class="event-vitals-horizontal">
+                    <h3 class="event-vitals-header">Course Dates</h3>
+                </div>
+            </div>
+
+            <div class="content-column-no-offset post-body">
+                <p>**Note: This course has been cancelled. For questions, please contact the <a
+                        href="mailto:registrar@brookings.edu">registrar</a>.</p>
+                <p>Results matter to Congress, the administration and the American public. The ability to demonstrate
+                    positive outcomes — and make government work more effectively — helps your agency build trust and
+                    secure resources.</p>
+                <blockquote>
+                    <p><strong>&nbsp;“Challenges to accountability include a lack of public trust, inconsistent or
+                            uncertain resources, and perceived bureaucratic incompetence. These challenges affect public
+                            servants’ ability to achieve positive outcomes for their agencies and the American people,
+                            which is why we address them in this class.”&nbsp; – </strong>G. Edward DeSeve, Executive in
+                        residence and class instructor, WashU at Brookings</p>
+                </blockquote>
+                <h3>OPM Competency: Accountability</h3>
+
+                <h3>Program Benefits:</h3>
+                <ul>
+                    <li>Focus on four frameworks: the President’s Management Agenda, organizational analysis, strategic
+                        planning and enterprise risk management</li>
+                    <li>Design measurement systems that evaluate performance</li>
+                    <li>Examine your agency’s readiness to meet performance goals</li>
+                    <li>Develop strategies for the ongoing assessment of results-oriented leadership</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-up">
+            <div class="logo-name">
+                <h3>BROOKINGS</h3>
+            </div>
+            <div class="social-links">
+                <a href="#" style="background: #6275AE;"><i class="fab fa-facebook-f fa-lg"></i></a>
+                <a href="#" style="background: #33BCF4;"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="#" style="background: red;"><i class="fab fa-youtube fa-lg"></i></a>
+                <a href="#" style="background: #6275AE;"><i class="fa fa-envelope fa-lg"></i></a>
+                <a href="#" style="background: #A73399;"><i class="fas fa-podcast fa-lg"></i></a>
+                <a href="#" style="background: #FFA300;"><i class="fa fa-rss fa-lg"></i></a>
+            </div>
+            <div class="language">
+                <p>LANGUAGES</p>
+                <p class="langs">Espanol</p>
+                <p class="langs">English</p>
+            </div>
+        </div>
+        <hr class="hr-footer">
+        <section class="footer-links">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Research Programs</a></li>
+                <li><a href="#">Find and Expert</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </section>
+        <section class="footer-legal">
+            <ul>
+                <li>
+                    <a href="#">Terms and Conditions</a>
+                </li>
+                <li>
+                    <a href="#">Brookings Privacy and Policy</a>
+                </li>
+                <li>
+                    <a href="#">Copyright 2020 The Brookings Institution</a>
+                </li>
+            </ul>
+        </section>
+    </footer>
+</body>
+
+</html>

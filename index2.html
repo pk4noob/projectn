@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- BUNU MUELIMMNEN SORUS INSPET EDENDE HTML-WDITH COX AZALIR -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./real-project header-footer/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./real-project header-footer/assets/css/fonts.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./real-project header-footer/assets/css/style2.css" />
+</head>
+
+<body>
+    <header>
+        <div id="main-menu-search-bar-wrapper">
+            <div class="pos-f-t">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="input-group" id="navbar-search-input" style="height: 50px;">
+                        <div class="input-group-prepend  text-white bg-dark search-contents">
+                            <a href="#" class="input-group-text text-white bg-dark search-content-a" id="basic-addon1">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                        <input type="text" class="form-control text-white bg-dark shadow-none search-content-input"
+                            style="height: 50px;" aria-label="Username" aria-describedby="basic-addon1" />
+                    </div>
+                </div>
+                <!-- Bu navbar ustdekidi -->
+                <nav class="navbar navbar-dark justify-content-end super-nav" id="hide"
+                    style="background-color: #fff !important;">
+                    <ul class="nav super-nav-menu">
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">ABOUT US<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">PRESS ROOM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">EXPERTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">EVENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">THE BROOKING PRESS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">WASHU AT BROOKINGS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">SUPPORTING BROOKINGS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">CAREERS</a>
+                        </li>
+                    </ul>
+                    <button class="navbar-toggler bg-dark text-white" id="nav-toggler" type="button"
+                        data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                        aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        SEARCH <i class="fas fa-search"></i>
+                    </button>
+                </nav>
+            </div>
+            <hr class="nav-content-hr" />
+            <!-- Bu navbar alttakidi -->
+            <div class="navbar-main">
+                <nav id="" class="navbar main-nav navbar-expand-lg justify-content-md-between navbar-light bg-light">
+                    <!-- Burda responsib olanda flex rahat olunsun  deye divlere alinib search iconi ile burger -->
+                    <div class="flex-nav">
+                        <div class="navbar-brand-md ml-2">
+                            <a class="navbar-brand header-navbar-brand" href="#">
+                                BROOKINGS
+                            </a>
+                        </div>
+                        <div class="search-burger-contents">
+                            <button class="navbar-toggler search-burger-hover bg-dark text-white hide-search"
+                                id="nav-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fas fa-search"></i>
+                            </button>
+                            <button class="navbar-toggler search-burger-hover" id="burger-btn" type="button"
+                                data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <div class="navbar-nav" id="main-nav-menu">
+                            <ul class="nav mr-2">
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary" href="#">AI<span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary" href="#">POLICY 2020</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary" href="#">CITIES & REGIONS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary" href="#">GLOBAL DEV</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary" href="#">INTL AFFAIRS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary" href="#">U.S.ECONOMY</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary" href="#">U.S.POLITICS & GOVT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-secondary" href="#">MORE</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- burger nav hisse -->
+        <nav class="nav-right">
+            <div class="nav-right-inner">
+                <div class="section-right">
+                    <h2 class="mt-2 ml-2">BROOKINGS</h2>
+                    <button class="burger-nav-btn"><i class="fas fa-times"></i></button>
+                </div>
+                <!-- Accordion Using List Group -->
+                <div id="accordion" class="push-nav">
+                    <ul class="panel push-nav-main">
+                        <!-- panel class must be in -->
+                        <li class="menu-item-has-children">
+                            <a href="#web_dev" data-parent="#accordion" data-toggle="collapse"
+                                class="list-group-item burger-collapse-a">
+                                Trending
+                            </a>
+                            <div class="collapse right-navbar-collapse" id="web_dev">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <a href="#">U.S. Metro Areas</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">Cities & Regions</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">U.S. Economy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#desktop" data-parent="#accordion" data-toggle="collapse"
+                                class="list-group-item burger-collapse-a">
+                                Topics
+                            </a>
+                            <div class="collapse right-navbar-collapse" id="desktop">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <a href="#">AI</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">Policy 2020</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">Cities & Regions</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">Global Dev</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">Intl Affairs</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">U.S. Economy</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">U.S. Politics & Govt</a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="#">More</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                                Press ROOM
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                                Experts
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                                Events
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                                The Brooking Press
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                                Washu At Brookings
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                                Support Brookings
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#web_dev" data-parent="#accordion" class="list-group-item">
+                                Careers
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="page-content">
+
+        <a name="page-content"></a>
+        <section class="landing">
+            <header class="page-header">
+                <div class="page-header-inner">
+                    <h1 class="header">Executive Education Courses </h1>
+                    <div>
+                        <button type="button" id="btn--" class="btn btn-outline-light">Executive Education
+                            Courses</button>
+                    </div>
+                </div>
+            </header>
+            <div class="search-filters">
+                <form action="https://www.brookings.edu/courses/">
+                    <div class="search-group">
+                        <label for="search-filters-keyword">
+                            <input type="text" id="search-filters-keyword" name="s" value=""
+                                placeholder="Enter Course Name">
+                        </label>
+
+                        <i class="icon-search fas fa-search"></i>
+                    </div>
+                    <button class="search-filters-advanced-toggle">Advanced Search <span class="icon-chevron"><i
+                                style="color: white;" class="fas fa-chevron-down"></i>
+                        </span></button>
+                    <div class="search-filters-advanced">
+                        <div class="select-group filter-count-1">
+
+                            <div class="filter-wrapper">
+                                <label for="search-filter-course_type">Course Type</label>
+                                <div class="filter">
+                                    <select id="search-filter-course_type" name="course_type"
+                                        class="select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+                                        <option value="" selected="selected">All</option>
+                                        <option value="policy-course">Policy Course</option>
+                                        <option value="leadership-course">Leadership Course</option>
+                                    </select><span class="select2 select2-container select2-container--default"
+                                        dir="ltr" style="width: 100%;"><span class="selection"><span
+                                                class="select2-selection select2-selection--single" role="combobox"
+                                                aria-haspopup="true" aria-expanded="false" tabindex="0"
+                                                aria-labelledby="select2-search-filter-course_type-container"><span
+                                                    class="select2-selection__rendered"
+                                                    id="select2-search-filter-course_type-container"
+                                                    title="All">All</span><span class="select2-selection__arrow"
+                                                    role="presentation"><b
+                                                        role="presentation"></b></span></span></span><span
+                                            class="dropdown-wrapper" aria-hidden="true"></span></span> <span
+                                        class="icon-chevron"><svg width="16" height="12" viewBox="0 0 16 12"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16 9.897L8 .563 0 9.897l1.796 1.54L8 4.2l6.204 7.237L16 9.897z"
+                                                fill-rule="evenodd"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="select-group filter-count-2 search-by-date-range" style="display: none;">
+
+                            <div class="filter-wrapper">
+                                <div class="fiter">
+                                    <label for="search-filter-start_date">Start Date</label>
+                                    <input type="date" name="start_date" id="search-filter-start_date" value=""
+                                        placeholder="mm/dd/yyyy">
+                                </div>
+                            </div>
+
+                            <div class="filter-wrapper">
+                                <div class="fiter">
+                                    <label for="search-filter-end_date">End Date</label>
+                                    <input type="date" name="end_date" id="search-filter-end_date" value=""
+                                        placeholder="mm/dd/yyyy">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-actions">
+                            <input class="apply-button" type="submit" value="apply filters">
+                            <input class="reset-button" type="reset" value="remove filters">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="search-results-filters">
+                <div class="search-results-filter"><span class="meta">43 results</span></div>
+                <div class="search-results-filter salam2">
+                    <nav id="dl-menu-sort" class="salamm dl-menuwrapper"><button id="dl-trigger-sort"
+                            class="salam btn btn-outline-primary">Sorting by
+                            Alphabetical</button>
+                        <ul class=" dl-menu-sort dl-menu-toggle">
+                            <li><a href="?orderby=relevance">Sort by Relevance</a></li>
+                            <li><a href="?orderby=upcoming">Sort by Upcoming</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <section class="search-results">
+                <div class="post-linear-list">
+                    <div class="list-content">
+
+                        <article class="archive-view course has-image" itemscope=""
+                            itemtype="http://schema.org/EducationEvent">
+                            <figure class="article-image">
+                                <div class="image-wrapper">
+                                    <a href="https://www.brookings.edu/courses/accountability-for-results/"
+                                        itemprop="url">
+                                        <img class="wp-image-515704 size-post-list lazyautosizes lazyloaded"
+                                            data-sizes="auto" src="./images/accountability-2-huntoon.jpg" sizes="139px">
+                                    </a>
+                                </div>
+                            </figure>
+                            <div class="article-info">
+                                <h4 class="title" id="h44" itemprop="name"><a id="aaaa" href="#"
+                                        itemprop="url">Accountability for
+                                        Results</a></h4>
+                                <div class="meta ">
+                                    No upcoming course dates. </div>
+                                <div class="description" itemprop="description">
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="archive-view course has-image" itemscope=""
+                            itemtype="http://schema.org/EducationEvent">
+                            <figure class="article-image">
+                                <div class="image-wrapper">
+                                    <a href="https://www.brookings.edu/courses/communicating-for-success/"
+                                        itemprop="url">
+                                        <img class="wp-image-295476 size-post-list lazyautosizes lazyloaded"
+                                            data-sizes="auto"
+                                            data-src="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_communicating_for_success.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            data-srcset="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_communicating_for_success.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_communicating_for_success.jpg?w=151&amp;crop=0%2C8px%2C100%2C85px&amp;ssl=1 151w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_communicating_for_success.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_communicating_for_success.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_communicating_for_success.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w"
+                                            alt=""
+                                            src="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_communicating_for_success.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            sizes="139px"
+                                            srcset="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_communicating_for_success.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_communicating_for_success.jpg?w=151&amp;crop=0%2C8px%2C100%2C85px&amp;ssl=1 151w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_communicating_for_success.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_communicating_for_success.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_communicating_for_success.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w">
+                                    </a>
+                                </div>
+                            </figure>
+                            <div class="article-info">
+                                <h4 class="title" itemprop="name"><a
+                                        href="https://www.brookings.edu/courses/communicating-for-success/"
+                                        itemprop="url">Communicating for Success</a></h4>
+                                <div class="meta ">
+                                    No upcoming course dates. </div>
+                                <div class="description" itemprop="description">
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="archive-view course has-image" itemscope=""
+                            itemtype="http://schema.org/EducationEvent">
+                            <figure class="article-image">
+                                <div class="image-wrapper">
+                                    <a href="https://www.brookings.edu/courses/strategies-for-conflict-resolution/"
+                                        itemprop="url">
+                                        <img class="wp-image-323103 size-post-list lazyautosizes lazyloaded"
+                                            data-sizes="auto"
+                                            data-src="https://i1.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_strategies_for_conflict_resolution.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            data-srcset="https://i1.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_strategies_for_conflict_resolution.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i1.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_strategies_for_conflict_resolution.jpg?w=151&amp;crop=0%2C8px%2C100%2C85px&amp;ssl=1 151w,https://i1.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_strategies_for_conflict_resolution.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i1.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_strategies_for_conflict_resolution.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i1.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_strategies_for_conflict_resolution.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w"
+                                            alt=""
+                                            src="https://i1.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_strategies_for_conflict_resolution.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            sizes="139px"
+                                            srcset="https://i1.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_strategies_for_conflict_resolution.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i1.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_strategies_for_conflict_resolution.jpg?w=151&amp;crop=0%2C8px%2C100%2C85px&amp;ssl=1 151w,https://i1.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_strategies_for_conflict_resolution.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i1.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_strategies_for_conflict_resolution.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i1.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_strategies_for_conflict_resolution.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w">
+                                    </a>
+                                </div>
+                            </figure>
+                            <div class="article-info">
+                                <h4 class="title" itemprop="name"><a
+                                        href="https://www.brookings.edu/courses/strategies-for-conflict-resolution/"
+                                        itemprop="url">Conflict Resolution</a></h4>
+                                <div class="meta emphasized">
+                                    1 upcoming course date. </div>
+                                <div class="description" itemprop="description">
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="archive-view course has-image" itemscope=""
+                            itemtype="http://schema.org/EducationEvent">
+                            <figure class="article-image">
+                                <div class="image-wrapper">
+                                    <a href="https://www.brookings.edu/courses/continual-learning-and-change/"
+                                        itemprop="url">
+                                        <img class="wp-image-323151 size-post-list lazyautosizes lazyloaded"
+                                            data-sizes="auto"
+                                            data-src="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_organizational_culture_learning_change-e1503407626859.jpg?w=234&amp;crop=0%2C105px%2C100%2C134px&amp;ssl=1"
+                                            data-srcset="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_organizational_culture_learning_change-e1503407626859.jpg?w=234&amp;crop=0%2C105px%2C100%2C134px&amp;ssl=1 234w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_organizational_culture_learning_change-e1503407626859.jpg?w=151&amp;crop=0%2C68px%2C100%2C85px&amp;ssl=1 151w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_organizational_culture_learning_change-e1503407626859.jpg?w=135&amp;crop=0%2C61px%2C100%2C76px&amp;ssl=1 135w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_organizational_culture_learning_change-e1503407626859.jpg?w=170&amp;crop=0%2C77px%2C100%2C96px&amp;ssl=1 170w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_organizational_culture_learning_change-e1503407626859.jpg?w=168&amp;crop=0%2C76px%2C100%2C95px&amp;ssl=1 168w"
+                                            alt=""
+                                            src="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_organizational_culture_learning_change-e1503407626859.jpg?w=234&amp;crop=0%2C105px%2C100%2C134px&amp;ssl=1"
+                                            sizes="139px"
+                                            srcset="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_organizational_culture_learning_change-e1503407626859.jpg?w=234&amp;crop=0%2C105px%2C100%2C134px&amp;ssl=1 234w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_organizational_culture_learning_change-e1503407626859.jpg?w=151&amp;crop=0%2C68px%2C100%2C85px&amp;ssl=1 151w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_organizational_culture_learning_change-e1503407626859.jpg?w=135&amp;crop=0%2C61px%2C100%2C76px&amp;ssl=1 135w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_organizational_culture_learning_change-e1503407626859.jpg?w=170&amp;crop=0%2C77px%2C100%2C96px&amp;ssl=1 170w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_organizational_culture_learning_change-e1503407626859.jpg?w=168&amp;crop=0%2C76px%2C100%2C95px&amp;ssl=1 168w">
+                                    </a>
+                                </div>
+                            </figure>
+                            <div class="article-info">
+                                <h4 class="title" itemprop="name"><a
+                                        href="https://www.brookings.edu/courses/continual-learning-and-change/"
+                                        itemprop="url">Continual Learning and Change</a></h4>
+                                <div class="meta ">
+                                    No upcoming course dates. </div>
+                                <div class="description" itemprop="description">
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="archive-view course has-image" itemscope=""
+                            itemtype="http://schema.org/EducationEvent">
+                            <figure class="article-image">
+                                <div class="image-wrapper">
+                                    <a href="https://www.brookings.edu/courses/courageous-leadership/" itemprop="url">
+                                        <img class="wp-image-614604 size-post-list lazyautosizes lazyloaded"
+                                            data-sizes="auto"
+                                            data-src="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/Sam.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            data-srcset="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/Sam.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/Sam.jpg?w=151&amp;crop=0%2C8px%2C100%2C85px&amp;ssl=1 151w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/Sam.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/Sam.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/Sam.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w"
+                                            alt="Sam Leadership"
+                                            src="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/Sam.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            sizes="139px"
+                                            srcset="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/Sam.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/Sam.jpg?w=151&amp;crop=0%2C8px%2C100%2C85px&amp;ssl=1 151w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/Sam.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/Sam.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/Sam.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w">
+                                    </a>
+                                </div>
+                            </figure>
+                            <div class="article-info">
+                                <h4 class="title" itemprop="name"><a
+                                        href="https://www.brookings.edu/courses/courageous-leadership/"
+                                        itemprop="url">Courageous Leadership</a></h4>
+                                <div class="meta emphasized">
+                                    1 upcoming course date. </div>
+                                <div class="description" itemprop="description">
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="archive-view course has-image" itemscope=""
+                            itemtype="http://schema.org/EducationEvent">
+                            <figure class="article-image">
+                                <div class="image-wrapper">
+                                    <a href="https://www.brookings.edu/courses/creativity-in-organizations/"
+                                        itemprop="url">
+                                        <img class="wp-image-298232 size-post-list lazyautosizes lazyloaded"
+                                            data-sizes="auto"
+                                            data-src="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_inspiring_creativity.jpg?w=234&amp;crop=0%2C109px%2C100%2C134px&amp;ssl=1"
+                                            data-srcset="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_inspiring_creativity.jpg?w=234&amp;crop=0%2C109px%2C100%2C134px&amp;ssl=1 234w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_inspiring_creativity.jpg?w=151&amp;crop=0%2C71px%2C100%2C85px&amp;ssl=1 151w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_inspiring_creativity.jpg?w=135&amp;crop=0%2C63px%2C100%2C76px&amp;ssl=1 135w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_inspiring_creativity.jpg?w=170&amp;crop=0%2C79px%2C100%2C96px&amp;ssl=1 170w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_inspiring_creativity.jpg?w=168&amp;crop=0%2C78px%2C100%2C95px&amp;ssl=1 168w"
+                                            alt=""
+                                            src="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_inspiring_creativity.jpg?w=234&amp;crop=0%2C109px%2C100%2C134px&amp;ssl=1"
+                                            sizes="139px"
+                                            srcset="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_inspiring_creativity.jpg?w=234&amp;crop=0%2C109px%2C100%2C134px&amp;ssl=1 234w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_inspiring_creativity.jpg?w=151&amp;crop=0%2C71px%2C100%2C85px&amp;ssl=1 151w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_inspiring_creativity.jpg?w=135&amp;crop=0%2C63px%2C100%2C76px&amp;ssl=1 135w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_inspiring_creativity.jpg?w=170&amp;crop=0%2C79px%2C100%2C96px&amp;ssl=1 170w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_inspiring_creativity.jpg?w=168&amp;crop=0%2C78px%2C100%2C95px&amp;ssl=1 168w">
+                                    </a>
+                                </div>
+                            </figure>
+                            <div class="article-info">
+                                <h4 class="title" itemprop="name"><a
+                                        href="https://www.brookings.edu/courses/creativity-in-organizations/"
+                                        itemprop="url">Creativity in Organizations</a></h4>
+                                <div class="meta ">
+                                    No upcoming course dates. </div>
+                                <div class="description" itemprop="description">
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="archive-view course has-image" itemscope=""
+                            itemtype="http://schema.org/EducationEvent">
+                            <figure class="article-image">
+                                <div class="image-wrapper">
+                                    <a href="https://www.brookings.edu/courses/leveraging-diversity/" itemprop="url">
+                                        <img class="wp-image-323100 size-post-list lazyautosizes lazyloaded"
+                                            data-sizes="auto"
+                                            data-src="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_global_leadership.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            data-srcset="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_global_leadership.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_global_leadership.jpg?w=151&amp;crop=0%2C7px%2C100%2C85px&amp;ssl=1 151w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_global_leadership.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_global_leadership.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_global_leadership.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w"
+                                            alt=""
+                                            src="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_global_leadership.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            sizes="139px"
+                                            srcset="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_global_leadership.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_global_leadership.jpg?w=151&amp;crop=0%2C7px%2C100%2C85px&amp;ssl=1 151w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_global_leadership.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_global_leadership.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160803_global_leadership.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w">
+                                    </a>
+                                </div>
+                            </figure>
+                            <div class="article-info">
+                                <h4 class="title" itemprop="name"><a
+                                        href="https://www.brookings.edu/courses/leveraging-diversity/"
+                                        itemprop="url">Cross Cultural Connections: Leveraging Diversity</a></h4>
+                                <div class="meta ">
+                                    No upcoming course dates. </div>
+                                <div class="description" itemprop="description">
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="archive-view course has-image" itemscope=""
+                            itemtype="http://schema.org/EducationEvent">
+                            <figure class="article-image">
+                                <div class="image-wrapper">
+                                    <a href="https://www.brookings.edu/courses/customer-service/" itemprop="url">
+                                        <img class="wp-image-251044 size-post-list lazyautosizes lazyloaded"
+                                            data-sizes="auto"
+                                            data-src="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2016/08/bee_20160802_excellence_in_customer_service.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            data-srcset="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2016/08/bee_20160802_excellence_in_customer_service.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2016/08/bee_20160802_excellence_in_customer_service.jpg?w=151&amp;crop=0%2C8px%2C100%2C85px&amp;ssl=1 151w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2016/08/bee_20160802_excellence_in_customer_service.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2016/08/bee_20160802_excellence_in_customer_service.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2016/08/bee_20160802_excellence_in_customer_service.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w"
+                                            alt="excellence in customer service"
+                                            src="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2016/08/bee_20160802_excellence_in_customer_service.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            sizes="139px"
+                                            srcset="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2016/08/bee_20160802_excellence_in_customer_service.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2016/08/bee_20160802_excellence_in_customer_service.jpg?w=151&amp;crop=0%2C8px%2C100%2C85px&amp;ssl=1 151w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2016/08/bee_20160802_excellence_in_customer_service.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2016/08/bee_20160802_excellence_in_customer_service.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2016/08/bee_20160802_excellence_in_customer_service.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w">
+                                    </a>
+                                </div>
+                            </figure>
+                            <div class="article-info">
+                                <h4 class="title" itemprop="name"><a
+                                        href="https://www.brookings.edu/courses/customer-service/"
+                                        itemprop="url">Customer Service</a></h4>
+                                <div class="meta ">
+                                    No upcoming course dates. </div>
+                                <div class="description" itemprop="description">
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="archive-view course has-image" itemscope=""
+                            itemtype="http://schema.org/EducationEvent">
+                            <figure class="article-image">
+                                <div class="image-wrapper">
+                                    <a href="https://www.brookings.edu/courses/data-analytics-for-public-leaders/"
+                                        itemprop="url">
+                                        <img class="wp-image-614619 size-post-list lazyautosizes lazyloaded"
+                                            data-sizes="auto"
+                                            data-src="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/data-analytics.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            data-srcset="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/data-analytics.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/data-analytics.jpg?w=151&amp;crop=0%2C8px%2C100%2C85px&amp;ssl=1 151w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/data-analytics.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/data-analytics.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/data-analytics.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w"
+                                            alt="Data Analytics"
+                                            src="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/data-analytics.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            sizes="139px"
+                                            srcset="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/data-analytics.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/data-analytics.jpg?w=151&amp;crop=0%2C8px%2C100%2C85px&amp;ssl=1 151w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/data-analytics.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/data-analytics.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2019/04/data-analytics.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w">
+                                    </a>
+                                </div>
+                            </figure>
+                            <div class="article-info">
+                                <h4 class="title" itemprop="name"><a
+                                        href="https://www.brookings.edu/courses/data-analytics-for-public-leaders/"
+                                        itemprop="url">Data Analytics for Public Leaders</a></h4>
+                                <div class="meta ">
+                                    No upcoming course dates. </div>
+                                <div class="description" itemprop="description">
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="archive-view course has-image" itemscope=""
+                            itemtype="http://schema.org/EducationEvent">
+                            <figure class="article-image">
+                                <div class="image-wrapper">
+                                    <a href="https://www.brookings.edu/courses/developing-others-leader-coach/"
+                                        itemprop="url">
+                                        <img class="wp-image-299250 size-post-list lazyautosizes lazyloaded"
+                                            data-sizes="auto"
+                                            data-src="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_leaders_growing_leaders.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            data-srcset="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_leaders_growing_leaders.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_leaders_growing_leaders.jpg?w=151&amp;crop=0%2C8px%2C100%2C85px&amp;ssl=1 151w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_leaders_growing_leaders.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_leaders_growing_leaders.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_leaders_growing_leaders.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w"
+                                            alt=""
+                                            src="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_leaders_growing_leaders.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            sizes="139px"
+                                            srcset="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_leaders_growing_leaders.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_leaders_growing_leaders.jpg?w=151&amp;crop=0%2C8px%2C100%2C85px&amp;ssl=1 151w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_leaders_growing_leaders.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_leaders_growing_leaders.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_leaders_growing_leaders.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w">
+                                    </a>
+                                </div>
+                            </figure>
+                            <div class="article-info">
+                                <h4 class="title" itemprop="name"><a
+                                        href="https://www.brookings.edu/courses/developing-others-leader-coach/"
+                                        itemprop="url">Developing Others: Leader as Coach</a></h4>
+                                <div class="meta ">
+                                    No upcoming course dates. </div>
+                                <div class="description" itemprop="description">
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="archive-view course has-image" itemscope=""
+                            itemtype="http://schema.org/EducationEvent">
+                            <figure class="article-image">
+                                <div class="image-wrapper">
+                                    <a href="https://www.brookings.edu/courses/digital-government/" itemprop="url">
+                                        <img class="wp-image-587235 size-post-list lazyautosizes lazyloaded"
+                                            data-sizes="auto"
+                                            data-src="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/01/access-close-up-code-1089438.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            data-srcset="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/01/access-close-up-code-1089438.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/01/access-close-up-code-1089438.jpg?w=151&amp;crop=0%2C8px%2C100%2C85px&amp;ssl=1 151w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/01/access-close-up-code-1089438.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/01/access-close-up-code-1089438.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/01/access-close-up-code-1089438.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w"
+                                            alt="Computer Code"
+                                            src="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/01/access-close-up-code-1089438.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            sizes="139px"
+                                            srcset="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/01/access-close-up-code-1089438.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/01/access-close-up-code-1089438.jpg?w=151&amp;crop=0%2C8px%2C100%2C85px&amp;ssl=1 151w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/01/access-close-up-code-1089438.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/01/access-close-up-code-1089438.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/01/access-close-up-code-1089438.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w">
+                                    </a>
+                                </div>
+                            </figure>
+                            <div class="article-info">
+                                <h4 class="title" itemprop="name"><a
+                                        href="https://www.brookings.edu/courses/digital-government/"
+                                        itemprop="url">Digital Government</a></h4>
+                                <div class="meta ">
+                                    No upcoming course dates. </div>
+                                <div class="description" itemprop="description">
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="archive-view course has-image" itemscope=""
+                            itemtype="http://schema.org/EducationEvent">
+                            <figure class="article-image">
+                                <div class="image-wrapper">
+                                    <a href="https://www.brookings.edu/courses/leading-with-integrity-ethics-in-action/"
+                                        itemprop="url">
+                                        <img class="lazyload wp-image-297507 size-post-list" data-sizes="auto"
+                                            data-src="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_ethics_in_action.jpg?w=234&amp;crop=0%2C10px%2C100%2C134px&amp;ssl=1"
+                                            data-srcset="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_ethics_in_action.jpg?w=234&amp;crop=0%2C10px%2C100%2C134px&amp;ssl=1 234w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_ethics_in_action.jpg?w=151&amp;crop=0%2C7px%2C100%2C85px&amp;ssl=1 151w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_ethics_in_action.jpg?w=135&amp;crop=0%2C6px%2C100%2C76px&amp;ssl=1 135w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_ethics_in_action.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_ethics_in_action.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w"
+                                            alt=""
+                                            src="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_ethics_in_action.jpg?w=135&amp;quality=1#038;crop=0%2C6px%2C100%2C76px&amp;ssl=1">
+                                    </a>
+                                </div>
+                            </figure>
+                            <div class="article-info">
+                                <h4 class="title" itemprop="name"><a
+                                        href="https://www.brookings.edu/courses/leading-with-integrity-ethics-in-action/"
+                                        itemprop="url">Ethics in Action: Leading with Integrity</a></h4>
+                                <div class="meta ">
+                                    No upcoming course dates. </div>
+                                <div class="description" itemprop="description">
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="archive-view course has-image" itemscope=""
+                            itemtype="http://schema.org/EducationEvent">
+                            <figure class="article-image">
+                                <div class="image-wrapper">
+                                    <a href="https://www.brookings.edu/courses/finance-for-nonfinancial-managers/"
+                                        itemprop="url">
+                                        <img class="lazyload wp-image-289656 size-post-list" data-sizes="auto"
+                                            data-src="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_finance_for_nonfinancial_managers.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            data-srcset="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_finance_for_nonfinancial_managers.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_finance_for_nonfinancial_managers.jpg?w=151&amp;crop=0%2C7px%2C100%2C85px&amp;ssl=1 151w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_finance_for_nonfinancial_managers.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_finance_for_nonfinancial_managers.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_finance_for_nonfinancial_managers.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w"
+                                            alt=""
+                                            src="https://i0.wp.com/www.brookings.edu/wp-content/uploads/2015/05/bee_20160802_finance_for_nonfinancial_managers.jpg?w=135&amp;quality=1#038;crop=0%2C7px%2C100%2C76px&amp;ssl=1">
+                                    </a>
+                                </div>
+                            </figure>
+                            <div class="article-info">
+                                <h4 class="title" itemprop="name"><a
+                                        href="https://www.brookings.edu/courses/finance-for-nonfinancial-managers/"
+                                        itemprop="url">Finance for Nonfinancial Managers</a></h4>
+                                <div class="meta ">
+                                    No upcoming course dates. </div>
+                                <div class="description" itemprop="description">
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="archive-view course has-image" itemscope=""
+                            itemtype="http://schema.org/EducationEvent">
+                            <figure class="article-image">
+                                <div class="image-wrapper">
+                                    <a href="https://www.brookings.edu/courses/flexibility-and-decisiveness/"
+                                        itemprop="url">
+                                        <img class="lazyload wp-image-323290 size-post-list" data-sizes="auto"
+                                            data-src="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/09/150915_brookings_execed_032.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            data-srcset="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/09/150915_brookings_execed_032.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/09/150915_brookings_execed_032.jpg?w=151&amp;crop=0%2C8px%2C100%2C85px&amp;ssl=1 151w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/09/150915_brookings_execed_032.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/09/150915_brookings_execed_032.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/09/150915_brookings_execed_032.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w"
+                                            alt="Professor in front of class"
+                                            src="https://i2.wp.com/www.brookings.edu/wp-content/uploads/2015/09/150915_brookings_execed_032.jpg?w=135&amp;quality=1#038;crop=0%2C7px%2C100%2C76px&amp;ssl=1">
+                                    </a>
+                                </div>
+                            </figure>
+                            <div class="article-info">
+                                <h4 class="title" itemprop="name"><a
+                                        href="https://www.brookings.edu/courses/flexibility-and-decisiveness/"
+                                        itemprop="url">Flexibility and Decisiveness</a></h4>
+                                <div class="meta ">
+                                    No upcoming course dates. </div>
+                                <div class="description" itemprop="description">
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="archive-view course has-image" itemscope=""
+                            itemtype="http://schema.org/EducationEvent">
+                            <figure class="article-image">
+                                <div class="image-wrapper">
+                                    <a href="https://www.brookings.edu/courses/global-economic-policy/" itemprop="url">
+                                        <img class="lazyload wp-image-614599 size-post-list" data-sizes="auto"
+                                            data-src="https://i1.wp.com/www.brookings.edu/wp-content/uploads/2019/04/NYSE.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1"
+                                            data-srcset="https://i1.wp.com/www.brookings.edu/wp-content/uploads/2019/04/NYSE.jpg?w=234&amp;crop=0%2C11px%2C100%2C134px&amp;ssl=1 234w,https://i1.wp.com/www.brookings.edu/wp-content/uploads/2019/04/NYSE.jpg?w=151&amp;crop=0%2C8px%2C100%2C85px&amp;ssl=1 151w,https://i1.wp.com/www.brookings.edu/wp-content/uploads/2019/04/NYSE.jpg?w=135&amp;crop=0%2C7px%2C100%2C76px&amp;ssl=1 135w,https://i1.wp.com/www.brookings.edu/wp-content/uploads/2019/04/NYSE.jpg?w=170&amp;crop=0%2C8px%2C100%2C96px&amp;ssl=1 170w,https://i1.wp.com/www.brookings.edu/wp-content/uploads/2019/04/NYSE.jpg?w=168&amp;crop=0%2C8px%2C100%2C95px&amp;ssl=1 168w"
+                                            alt="NYSE"
+                                            src="https://i1.wp.com/www.brookings.edu/wp-content/uploads/2019/04/NYSE.jpg?w=135&amp;quality=1#038;crop=0%2C7px%2C100%2C76px&amp;ssl=1">
+                                    </a>
+                                </div>
+                            </figure>
+                            <div class="article-info">
+                                <h4 class="title" itemprop="name"><a
+                                        href="https://www.brookings.edu/courses/global-economic-policy/"
+                                        itemprop="url">Global Economic Policy</a></h4>
+                                <div class="meta ">
+                                    No upcoming course dates. </div>
+                                <div class="description" itemprop="description">
+                                </div>
+                            </div>
+                        </article>
+                        <div id="brookings-load-more-container"></div>
+                        <div class="load-more-link load-more-wrapper"
+                            data-load-more-class=".list-content > article, .divider" data-load-more-next-page="2"
+                            data-load-more-total-pages="3">
+                            <a href="#" class="load-more">Show More Courses</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+
+
+    </div>
+    <footer>
+        <div class="footer-up">
+            <div class="logo-name">
+                <h3>BROOKINGS</h3>
+            </div>
+            <div class="social-links">
+                <a href="#" style="background: #6275AE;"><i class="fab fa-facebook-f fa-lg"></i></a>
+                <a href="#" style="background: #33BCF4;"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="#" style="background: red;"><i class="fab fa-youtube fa-lg"></i></a>
+                <a href="#" style="background: #6275AE;"><i class="fa fa-envelope fa-lg"></i></a>
+                <a href="#" style="background: #A73399;"><i class="fas fa-podcast fa-lg"></i></a>
+                <a href="#" style="background: #FFA300;"><i class="fa fa-rss fa-lg"></i></a>
+            </div>
+            <div class="language">
+                <p>LANGUAGES</p>
+                <p>Espanol</p>
+                <p>English</p>
+            </div>
+        </div>
+        <hr class="hr-footer">
+        <section class="footer-links">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Research Programs</a></li>
+                <li><a href="#">Find and Expert</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </section>
+        <section class="footer-legal">
+            <ul>
+                <li>
+                    <a href="#">Terms and Conditions</a>
+                </li>
+                <li>
+                    <a href="#">Brookings Privacy and Policy</a>
+                </li>
+                <li>
+                    <a href="#">Copyright 2020 The Brookings Institution</a>
+                </li>
+            </ul>
+        </section>
+    </footer>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
